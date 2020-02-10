@@ -1,10 +1,12 @@
-# [How to train an object detection model easy for free](https://www.dlology.com/blog/how-to-train-an-object-detection-model-easy-for-free/) | DLology Blog
+# Train a Custom Object Detection Model Using TensorFlow APIs
 
+Use this [blog post](https://blog.roboflow.ai/training-a-tensorflow-object-detection-model-with-a-custom-dataset/).
 
+Adapted from [DLology Blog](https://www.dlology.com/blog/how-to-train-an-object-detection-model-easy-for-free/)
 
 ## How to Run
 
-Easy way: run [this Colab Notebook](https://colab.research.google.com/github/Tony607/object_detection_demo/blob/master/tensorflow_object_detection_training_colab.ipynb).
+Easy way: run [this Colab Notebook](https://bit.ly/rf-mn)
 
 Alternatively, if you want to use your images instead of ones comes with this repo.
 
@@ -26,7 +28,7 @@ python resize_images.py --raw-dir ./data/raw --save-dir ./data/images --ext jpg 
 Resized images locate in `./data/images/`
 - Train/test split those files into two directories, `./data/images/train` and `./data/images/test`
 
-- Annotate resized images with [labelImg](https://tzutalin.github.io/labelImg/), generate `xml` files inside `./data/images/train` and `./data/images/test` folders. 
+- Annotate resized images with [labelImg](https://tzutalin.github.io/labelImg/), generate `xml` files inside `./data/images/train` and `./data/images/test` folders.
 
 *Tips: use shortcuts (`w`: draw box, `d`: next file, `a`: previous file, etc.) to accelerate the annotation.*
 
@@ -40,7 +42,7 @@ Resized images locate in `./data/images/`
 ## How to run inference on frozen TensorFlow graph
 
 Requirements:
-- `frozen_inference_graph.pb` Frozen TensorFlow object detection model downloaded from Colab after training. 
+- `frozen_inference_graph.pb` Frozen TensorFlow object detection model downloaded from Colab after training.
 - `label_map.pbtxt` File used to map correct name for predicted class index downloaded from Colab after training.
 
 You can also opt to download my [copy](https://github.com/Tony607/object_detection_demo/releases/download/V0.1/checkpoint.zip) of those files from the GitHub Release page.
