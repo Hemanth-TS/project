@@ -27,7 +27,8 @@ Thannks to https://github.com/Tony607/object_detection_demo for the intial demo!
 
 ## Resources available
 
-* [This blog post](https://blog.roboflow.ai/training-a-tensorflow-object-detection-model-with-a-custom-dataset/) walks through the tutorial
+* [This blog post for MobileNetSSDv2](https://blog.roboflow.ai/training-a-tensorflow-object-detection-model-with-a-custom-dataset/) walks through the tutorial
+* [This blog post for Faster R-CNN](https://blog.roboflow.ai/training-a-tensorflow-faster-r-cnn-object-detection-model-on-your-own-dataset/) walks through the tutorial
 * For the MobileNetSSDv2 model tutorial [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1wTMIrJhYsQdq_u7ROOkf0Lu_fsX5Mu8a)
 * For the Faster R-CNN  model tutorial [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1U3fkRu6-hwjk7wWIpg-iylL2u5T9t7rr#scrollTo=yhzxsJb3dpWq)
 * For reading purposes, for  MobileNetSSDv2, the notebook is saved here as Tutorial_Mobilenet.ipynb
